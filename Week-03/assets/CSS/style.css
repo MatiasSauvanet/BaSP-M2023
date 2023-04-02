@@ -3,10 +3,50 @@
     font-size: 20px;
     color: #49A37B;
     text-shadow: 3px 3px 3px;
-    padding-left: 100px;
+    padding-left: 175px;
     border-bottom: 1px black solid;
     padding-top: 40px;
     margin: 0;
+}
+
+.vectorpng {
+    position: absolute;
+    left: 3.49%;
+    right: 93.21%;
+    top: 4.05%;
+    bottom: 96.52%;
+}
+
+.adduserpng {
+    position: absolute;
+    width: 30px;
+    height: 41px;
+    left: 1690px;
+    top: 98px;
+}
+
+.homepng {
+    position: absolute;
+    left: 1650px;
+    right: 8.34%;
+    top: 100px;
+    bottom: 16.67%;
+}
+
+.loginpng {
+    position: absolute;
+    left: 1730px;
+    right: 8.34%;
+    top: 108px;
+    bottom: 12.5%;
+}
+
+.vectorpng-2 {
+    position: absolute;
+    left: 1770px;
+    right: 6.32%;
+    top: 105px;
+    bottom: 96.36%;
 }
 
 .section-1 {
@@ -48,7 +88,7 @@
 
 .welcome-image {
     position: relative;
-    left: 14cm;
+    left: 20cm;
     top: -6.5cm;
 }
 
@@ -56,6 +96,7 @@
 .section-2 {
     font-family: 'roboto', sans-serif;
     border-bottom: 1px black solid;
+    max-height: 650px;
 }
 
 .functions-h2 {
@@ -88,6 +129,71 @@
 .functions-p-2 {
     font-size: 20px;
     padding-left: 850px;
+    max-width: 400px;
     position: relative;
     top: -4.8cm;
+}
+
+.functions-h3-3 {
+    font-size: 30px;
+    color: #49A37B;
+    padding-left: 185px;
+    position: relative;
+    top: -3cm;
+}
+
+.functions-p-3 {
+    font-size: 20px;
+    padding-left: 185px;
+    max-width: 400px;
+    position: relative;
+    top: -3cm;
+}
+
+.functions-h3-4 {
+    font-size: 30px;
+    color: #49A37B;
+    padding-left: 850px;
+    position: relative;
+    top: -9cm;
+}
+
+.functions-p-4 {
+    font-size: 20px;
+    padding-left: 850px;
+    max-width: 400px;
+    position: relative;
+    top: -9cm;
+}
+
+.Reservasvg {
+    position: absolute;
+    width: 86.15px;
+    height: 80px;
+    top: 18.2cm;
+    left: 2cm;
+}
+
+.Gestionsvg {
+    position: absolute;
+    left: 2cm;
+    right: 86.96%;
+    top: 26cm;
+    bottom: 70.72%;
+}
+
+.Agendasvg {
+    position: absolute;
+    left: 38.5%;
+    right: 44.73%;
+    top: 18.2cm;
+    bottom: 77.37%;
+}
+
+.Sugerenciassvg {
+    position: absolute;
+    left: 38.5%;
+    right: 44.73%;
+    top: 26cm;
+    bottom: 70.59%;
 }
