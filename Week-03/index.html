@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="html" lang="en">
 <head>
     <link rel="stylesheet" href="./assets/CSS/style.css">
     <link rel="stylesheet" href="./assets/CSS/reset.css">
@@ -48,78 +48,71 @@
                 <img class="Agendasvg" src="./assets/Img/Vizualizacionagenda.svg" alt="">
                 <img class="Sugerenciassvg" src="./assets/Img/Sugencias.svg" alt="">      
         </section>
-        <section>
+        <section class="section-3">
                 <h2 class="AboutUs">About Us</h2>
-                <p>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum.</p> 
-                <p>Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget.</p> 
-                <p>tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum.</p> 
-                <p>Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+                <p class="Aboutus-p">Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum.</p> 
+                <p class="Aboutus-p">Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget.</p> 
+                <p class="Aboutus-p">tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum.</p> 
+                <p class="Aboutus-p">Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
         </section>
-        <section>
-                <h1>Dejanos tu consulta</h1> 
-            <div>
+        <section class="section-4">
+                <h2 class="LeaveQ">Leave us your query</h2> 
+            <article>
                 <form action="Form_submit.php">
-                 <input type="text" placeholder="Nombre">
-            </div>
-            <div>
-                 <input type="text" placeholder="Apellido">
-            </div>
-                 <input type="text" placeholder="Email">
-            <div>   
-                 <textarea name="" id="" cols="30" rows="10" placeholder="Comentary"></textarea>
+                 <input class="Input" type="text" placeholder="Name">
+            </article>
+            <article>
+                 <input class="Input" type="text" placeholder="Surname">
+            </article>
+                 <input class="Input"type="text" placeholder="Email">
+            <article>
+                 <textarea class="Text" name="" id="" cols="30" rows="10" placeholder="Comentary"></textarea>
                 </form>
-            </div>
-            <div>
-                 <button><a href="">Send</a></button>   
-            </div>
+            </article>
+            <article>
+                 <button class="send-button"><a href="">Send</a></button>
+                 <h2 class="Motive">Reason</h2>
+                 <form action="Form_submit.php">
+                    <input class="Reason-1" type="checkbox" id="Answer1" name="Answer" value="1">
+                    <label class="Label-1" for="">I want to know the memberships and costs</label>
+                    <input class="Reason-2" type="checkbox" id="Answer2" name="Answer" value="2">
+                    <label class="Label-2" for="">I want to make a question or suggestion</label>
+                    <input class="Reason-3" type="checkbox" id="Answer3" name="Answer" value="3">
+                    <label class="Label-3" for="">I want to make a claim</label>
+                 </form>
+            </article>
         </section>
-        <section>
-                <h2>Motivo</h2>
-            <div>
-                <input type="radio" id="Answer1" name="Answer" value="1">
-                <label for="">Quiero conocer las memebresias y costos</label>
-            </div>
-            <div>
-                <input type="radio" id="Answer2" name="Answer" value="2">
-                <label for="">Quiero realizar una consulta o sugerencia</label>
-            </div>
-            <div>
-                <input type="radio" id="Answer3" name="Answer" value="3">
-                <label for="">Quiero realizar un reclamo</label>
-            </div>  
-        </section>
-        <section>
-            <div>
-                <h3>Actividades</h3>
-                <ul>
+        <section class="section-5">
+                <h3 class="Membresy-1">Activities</h3>
+                <ul class="Ul-1">
                     <li>Crossfit</li>
                     <li>Spinning</li>
-                    <li>Boxeo</li>
-                    <li>Musculacion</li>
+                    <li>Boxing</li>
+                    <li>Musculation</li>
                 </ul>
-                <h3>Membresia Black</h3>
-                <ul>
-                    <li>Acceso libre a la sala de musculacion</li>
-                    <li>Acceso libre a clases previa inscripcion</li>
-                    <li>Seguimiento personalizado por un entrenador</li>
-                    <li>Visualizacion de grilla</li>   
+                <h3 class="Membresy-2">Black Membership</h3>
+                <ul class="Ul-2">
+                    <li>Free access to the weight room</li>
+                    <li>Free access to classes prior registration</li>
+                    <li>Personalized monitoring by a coach</li>
+                    <li>Grid display</li>   
                 </ul>
-                <h3>Membresia Classic</h3>
-                <ul>
-                    <li>Acceso libre a clases previa inscripcion</li>
-                    <li>Seguimiento personalizado por un entrenador</li>
-                    <li>Visualizacion de grilla</li>
+                <h3 class="Membresy-3">Classic Membership</h3>
+                <ul class="Ul-3">
+                    <li>Free access to classes prior registration</li>
+                    <li>Personalized monitoring by a coach</li>
+                    <li>Grid display</li>
                 </ul>
-                <h3>Membresia Only Classes</h3>
-                <ul>
-                    <li>Acceso libre a clases previa inscripcion</li>
-                    <li>Visualizacion de grilla</li>    
+                <h3 class="Membresy-4">Membership Only Classes</h3>
+                <ul class="Ul-4">
+                    <li>Free access to classes prior registration</li>
+                    <li>VGrid display</li>    
                 </ul>
-            </div>
         </section>
     </main>
-    <footer>
-        <h2>© MEGA ROCKET SA 2023</h2>    
+    <footer class="footer">
+        <h2>© MEGA ROCKET SA 2023</h2>
+        <img class="footerimg" src="./assets/Img/Media.png" alt="">    
     </footer>
 </body>
 </html>

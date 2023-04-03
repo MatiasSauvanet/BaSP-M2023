@@ -1,5 +1,7 @@
-.header {
+.html {
     font-family: 'roboto', sans-serif;
+}
+.header {
     font-size: 20px;
     color: #49A37B;
     text-shadow: 3px 3px 3px;
@@ -50,7 +52,6 @@
 }
 
 .section-1 {
-    font-family: 'roboto', sans-serif;
     border-bottom: 1px black solid;
     max-height: 400px;
 }
@@ -94,7 +95,6 @@
 
 
 .section-2 {
-    font-family: 'roboto', sans-serif;
     border-bottom: 1px black solid;
     max-height: 650px;
 }
@@ -196,4 +196,205 @@
     right: 44.73%;
     top: 26cm;
     bottom: 70.59%;
+}
+
+.section-3 {
+    border-bottom: 1px black solid;
+    max-height: 650px;
+}
+
+.AboutUs {
+    font-size: 40px;
+    text-shadow: 2px 2px 2px;
+    color: #49A37B;
+    position: relative;
+    left: 2.5cm;
+    top: 2.5cm;
+}
+
+.Aboutus-p {
+    font-size: 20px;
+    position: relative;
+    left: 10cm;
+    bottom: 1cm;
+}
+
+.section-4 {
+    border-bottom: 1px black solid;
+    max-height: 730px;
+}
+
+.LeaveQ {
+    font-size: 40px;
+    text-shadow: 2px 2px 2px;
+    color: #49A37B;
+    position: relative;
+    left: 3cm;
+}
+
+.Input {
+    border: 1px black solid;
+    height: 1cm;
+    width: 12cm;
+    margin-bottom: 1cm;
+    position: relative;
+    left: 1.5cm;
+}
+
+.Text {
+    border: 1px black solid;
+    height: 8cm;
+    width: 30cm;
+    margin-bottom: 1cm;
+    position: relative;
+    left: 1.5cm;
+}
+
+.send-button {
+    background-color: #AACE9B;
+    color: #373867;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    height: 1cm;
+    width: 2cm;
+    position: relative;
+    left: 1.5cm;
+}
+
+.Motive {
+    font-size: 40px;
+    color: #49A37B;
+    position: relative;
+    left: 19cm;
+    bottom: 19.5cm;
+}
+
+.Reason-1 {
+    position: relative;
+    left: 19.1cm;
+    bottom: 19cm;
+}
+
+.Reason-2 {
+    position: relative;
+    left: 5.9cm;
+    bottom: 17cm;
+}
+
+.Reason-3 {
+    position: relative;
+    left: -6.4cm;
+    bottom: 15cm;
+}
+
+.Label-1 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #373867;
+    position: relative;
+    left: 19.3cm;
+    bottom: 19cm;
+}
+
+.Label-2 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #373867;
+    position: relative;
+    left: 6.1cm;
+    bottom: 17cm;
+}
+
+.Label-3 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #373867;
+    position: relative;
+    left: -6.2cm;
+    bottom: 15cm;
+}
+
+.section-5 {
+    border-bottom: 1px black solid;
+    max-height: 350px;
+}
+
+.Membresy-1 {
+    font-size: 40px;
+    color: #49A37B;
+    position: relative;
+    top: 1cm;
+    left: 1.5cm;
+}
+
+.Ul-1 {
+    font-size: 20px;
+    color: #373867;
+    position: relative;
+    top: 0.5cm;
+    left: 1cm;
+}
+
+.Membresy-2 {
+    font-size: 40px;
+    color: #49A37B;
+    position: relative;
+    left: 10cm;
+    bottom: 4.8cm;
+}
+
+.Ul-2 {
+    font-size: 20px;
+    color: #373867;
+    position: relative;
+    left: 10cm;
+    bottom: 5cm;
+}
+
+.Membresy-3 {
+    font-size: 40px;
+    color: #49A37B;
+    position: relative;
+    left: 23cm;
+    bottom: 10.5cm;
+}
+
+.Ul-3 {
+    font-size: 20px;
+    color: #373867;
+    position: relative;
+    left: 23cm;
+    bottom: 10.5cm;
+}
+
+.Membresy-4 {
+    font-size: 40px;
+    color: #49A37B;
+    position: relative;
+    left: 36cm;
+    bottom: 15.6cm;
+}
+
+.Ul-4 {
+    font-size: 20px;
+    color: #373867;
+    position: relative;
+    left: 36cm;
+    bottom: 15.6cm;
+}
+
+.footer {
+    max-height: 500px;
+    font-size: 32px;
+    position: relative;
+    top: 7cm;
+    left: 17cm;
+}
+
+.footerimg {
+    height: 80px;
+    position: relative;
+    bottom: 6cm;
+    left: 4cm;
 }
