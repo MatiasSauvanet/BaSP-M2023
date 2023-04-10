@@ -1,0 +1,288 @@
+.section-presentation {
+    background-color: #fff;
+    border-bottom: 1px black solid;
+}
+
+.presentation-flex-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #F2E8EA;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-title {
+    font-weight: 100;
+}
+
+.welcome-subtitle {
+    display: none;
+}
+
+.welcome-text {
+    font-weight: 600;
+    display: inline-block;
+}
+
+.welcome-image {
+    display: none;
+}
+
+.title-container {
+    position: absolute;
+    text-align: center;
+}
+
+.background-image {
+    width: 100%;
+    position: relative;
+    opacity: 0.3;
+}
+
+.welcome-button {
+    font-size: 15px;
+    color: #373867;
+    background-color: #fff;
+    border: 1px #49A37B solid;
+    border-radius: 5px;
+    width: 170px;
+    height: 60px;
+}
+
+.section-functions {
+    background-color: #fff;
+    border-bottom: 1px black solid;
+}
+
+.functions-flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.functions-h2 {
+    font-size: 40px;
+    color: #49A37B;
+}
+
+.functions-appointment {
+    font-size: 28px;
+    color: #49A37B;
+}
+
+.functions-appointment-text {
+    font-size: 20px;
+    font-weight: 100;
+    width: 300px;
+}
+
+.functions-agenda {
+    font-size: 28px;
+    color: #49A37B;
+    width: 300px;
+}
+
+.functions-agenda-text {
+    font-size: 20px;
+    font-weight: 100;
+    width: 300px;
+}
+
+.functions-membership {
+    font-size: 28px;
+    color: #49A37B;
+}
+
+.functions-membership-text {
+    font-size: 20px;
+    font-weight: 100;
+    width: 300px;
+}
+
+.functions-contact {
+    font-size: 28px;
+    color: #49A37B;
+    width: 215px;
+}
+
+.functions-contact-text {
+    font-size: 20px;
+    font-weight: 100;
+    width: 300px;
+}
+
+.section-about-us {
+    background-color: #fff;
+    border-bottom: 1px black solid;
+}
+
+.aboutus-flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us {
+    font-size: 38px;
+    color: #49A37B;
+}
+
+.About-us-text {
+    font-size: 25px;
+    font-weight: 100;
+    width: 300px;
+}
+
+.section-query {
+    background-color: #fff;
+    border-bottom: 1px black solid;
+}
+
+.query-flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Leave-Q {
+    font-size: 38px;
+    color: #49A37B;
+}
+
+.input-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-query {
+    border: 1px #373867 solid;
+    height: 50px;
+    width: 330px;
+    border-radius: 5px;
+}
+
+.input-article {
+    padding-bottom: 30px;
+}
+
+.comentary-query {
+    border: 1px grey solid;
+    height: 75px;
+    width: 330px;
+    border-radius: 5px;
+}
+
+.query-div {
+    padding-top: 30px;
+}
+
+.send-button {
+    background-color: #AACE9B;
+    color: #373867;
+    border-radius: 5px;
+    height: 34px;
+    width: 102px;
+    border: none;
+}
+
+.motive-title {
+    font-size: 32px;
+    color: #49A37B;
+}
+
+.motive-flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.label {
+    font-size: 20px;
+    color: #373867;
+}
+
+.section-activities-memberships {
+    background-color: #fff;
+    border: 1px black solid;
+}
+
+.activities-flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.activities-title {
+    font-size: 28px;
+    color: #49A37B;
+}
+
+.ul-activities {
+    font-size: 20px;
+    color: #373867;
+}
+
+@media only screen and (min-width: 601px) {
+
+.section-presentation {
+    height: 650px;
+}
+
+.presentation-flex-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+    width: 270px;
+}
+
+.welcome-title {
+    font-size: 26px;
+    color: #49A37B;
+}
+
+.welcome-subtitle {
+    display: contents;
+    font-size: 20px;
+    color: #49A37B;
+}
+
+.welcome-text {
+    font-size: 20px;
+    width: 250px;
+}
+
+.background-image {
+    display: none;
+}
+
+.welcome-image {
+    display: unset;
+    position: relative;
+    left: 300px;
+    max-width: 270px;
+    height: 550px;
+
+}
+
+.welcome-button {
+    position: relative;
+    left: 20px;
+}
+
+
+    
+}
+
