@@ -9,5 +9,11 @@ Work on HTML, passing the figma landing page in HTML. Pendent to add CSS to the 
 ## Week 03
 Add CSS to the HTML landing page.
 
+## Week 04
+-Fixed HTML and added new codes.
+-New css files.
+-Worked with flex display
+-Github pages: https://matiassauvanet.github.io/BaSP-M2023/Week-04/
+
 ## Authors
 - Matias Sauvanet
