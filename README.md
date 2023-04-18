@@ -13,7 +13,13 @@ Add CSS to the HTML landing page.
 -Fixed HTML and added new codes.
 -New css files.
 -Worked with flex display
--Github pages: https://matiassauvanet.github.io/BaSP-M2023/Week-04/
+-Github pages: https://matiassauvanet.github.io/BaSP-M2023/Week-04/index.html
+
+## Week 04
+-Start using JS for first time
+-Learn how interprete and use JS
+-Do 6 exercises (arrays, for, strings, etc)
+-Github pages: https://matiassauvanet.github.io/BaSP-M2023/Week-05/index.html
 
 ## Authors
 - Matias Sauvanet
