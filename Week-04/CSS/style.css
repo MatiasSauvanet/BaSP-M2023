@@ -4,11 +4,19 @@
 }
 
 .presentation-flex-container {
+    background-image: url(../assets/Img/LOGO-RR\ 1.svg);
+    background-repeat:no-repeat;
+    background-position-x: center;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #F2E8EA;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-container {
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -22,26 +30,18 @@
 }
 
 .welcome-text {
+    margin-left: 3px;
     font-weight: 600;
-    display: inline-block;
+    font-size: 20px;
 }
 
 .welcome-image {
     display: none;
 }
 
-.title-container {
-    position: absolute;
-    text-align: center;
-}
-
-.background-image {
-    width: 100%;
-    position: relative;
-    opacity: 0.3;
-}
-
 .welcome-button {
+    margin-bottom: 30px;
+    margin-top: 70px;
     font-size: 15px;
     color: #373867;
     background-color: #fff;
@@ -54,6 +54,11 @@
 .section-functions {
     background-color: #fff;
     border-bottom: 1px black solid;
+}
+
+.functions-h2 {
+    display: flex;
+    justify-content: center;
 }
 
 .functions-flex-container {
@@ -254,26 +259,25 @@
 
 @media only screen and (min-width: 601px) {
 
-.section-presentation {
-    height: 650px;
-}
 
 .presentation-flex-container {
+    background-image: none;
     background-color: #fff;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .title-container {
+    width: 45%;
     display: flex;
-    flex-direction: column;
     align-items: flex-start;
-    margin-left: 20px;
-    width: 270px;
 }
 
 .welcome-title {
+    margin: 0px 0px 5px;
+    width: 200px;
     font-size: 26px;
     color: #49A37B;
 }
@@ -285,30 +289,34 @@
 }
 
 .welcome-text {
+    margin: 10px 0px 5px;
     font-size: 20px;
-    width: 250px;
+    width: 100%;
 }
 
-.background-image {
-    display: none;
+.imageContainer {
+    width: 45%;
+    display: flex;
+    justify-content: center;
 }
 
 .welcome-image {
-    display: unset;
-    position: relative;
-    left: 300px;
-    max-width: 270px;
-    height: 550px;
-
+    display: flex;
+    width: 90%;
+    min-height: 500px;
 }
 
 .welcome-button {
-    position: relative;
     left: 20px;
 }
 
 .section-functions {
     height: 1100px;
+}
+
+.functions-flex-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .appointment-flex-container {
@@ -328,7 +336,6 @@
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .gestion-svg {
@@ -353,7 +360,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .sugerencias-svg {
@@ -377,11 +383,16 @@
 
 @media only screen and (min-width: 1025px) {
 
-.section-presentation {
-    height: 575px;
+.presentation-flex-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .welcome-title {
+    margin-bottom: 30px;
     width: 400px;
 }
 
@@ -394,24 +405,26 @@
 }
 
 .welcome-image {
-    padding-left: 150px;
-    max-width: 550px;
-    height: 500px;
+   width: 90%;
 }
 
-.welcome-button {
-    position: relative;
-    bottom: 50px;
+.imageContainer {
+    align-items: center;
 }
 
 .section-functions {
     height: 650px;
 }
 
+.functions-h2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
 .functions-flex-container {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
     padding-left: 30px;
 }
 
@@ -420,24 +433,18 @@
 }
 
 .agenda-flex-container{
+    width: 50%;
     display: flex;
-    align-self: flex-end;
-    position: absolute;
-    padding-top: 110px;
-    padding-right: 40px;
 }
 
 .contact-flex-container {
+    width: 50%;
     display: flex;
-    align-self: flex-end;
 }
 
 .contact-flex-container {
+    width: 50%;
     display: flex;
-    align-self: flex-end;
-    position: absolute;
-    padding-top: 350px;
-    padding-right: 40px;
 }
 
 .section-about-us {
