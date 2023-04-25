@@ -17,9 +17,9 @@
                 <img class="rocket-img" src="../assets/Img/Rocket logo.png">
                 <div class="login-flex-container">
                     <h1 class="title">Mega Rocket Gym</h1>
-                    <h2 class="subtitle">"Take-off your potential</h2>
+                    <h2 class="subtitle">"Take-off your potential"</h2>
                 </div>
-                <P class="register">Register</P>
+                <a id="register-link" href="../views/sign-up.html">Sign Up</a>
         </section>
     </header>
     <main>
@@ -29,11 +29,13 @@
                 <form action="Form_submit.php"></form>
                 <div class="mail-container">
                     <img class="mail-img" src="../assets/Img/Mail LOGO.png">
-                    <input class="mail-input" type="text">
+                    <input class="mail-input" id="form-mail" type="text">
+                    <div class="error"></div>
                 </div>
                 <div class="password-container">
                     <img class="password-img" src="../assets/Img/Password LOGO.png">
-                    <input class="password-input" type="password">
+                    <input class="password-input" id="form-password" type="password">
+                    <div class="error"></div>
                 </div>
                 <div class="remember-me-container">
                     <div class="input-container">
@@ -50,12 +52,15 @@
         </section>
     </main>
     <footer class="footer-login">
-        <button class="contact-us-button">Contact Us</button>
-        <p class="reserved-text">All rights reserved®</p>
-        <div class="logo-container">
-            <img class="facebook-logo" src="../assets/Img/Facebook LOGO.png">
-            <img class="instagram-logo" src="../assets/Img/Instagram LOGO.png">
+        <div class="footer-text">
+            <button class="contact-us-button">Contact Us</button>
         </div>
+            <p class="reserved-text">All rights reserved®</p>
+            <div class="logos-container">
+                <img class="facebook-logo" src="../assets/Img/Facebook LOGO.png">
+                <img class="instagram-logo" src="../assets/Img/Instagram LOGO.png">
+            </div>
     </footer>
 </body>
+<script src="../js/login.js"></script>
 </html>

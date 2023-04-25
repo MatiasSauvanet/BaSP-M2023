@@ -17,6 +17,7 @@
                 <h1 class="title">Mega Rocket Gym</h1>
                 <h2 class="subtitle">"Take-off your potential</h2>
             </div>
+            <a id="login-link" href="../views/login.html">Login</a>
     </section>
     </header>
     <main>
@@ -24,61 +25,63 @@
             
             <div class="sign-in-flex-container">
                 <h2 class="register-title">Register</h2>
-                <div class="container-name-surname">
-                    <div class="name-container">
-                        <h3>Name</h3>
-                        <input class="input-box" type="text" pattern="[A-Za-z]{3}">
+                <form action="Form_submit.php">
+                    <div class="container-name-surname">
+                        <div class="name-container">
+                            <h3>Name</h3>
+                            <input class="input-box" id="form-name" type="text">
+                        </div>
+                        <div class="surname-container">
+                            <h3>Surname</h3>
+                            <input class="input-box" id="form-surname" type="text">
+                        </div>
                     </div>
-                    <div>
-                        <h3>Surname</h3>
-                        <input class="input-box" type="text" pattern="[A-Za-z]{3}">
+                    <div class="dni-birthday-container">
+                        <div class="dni-container">
+                            <h3>DNI</h3>
+                            <input class="input-box-dni" id="form-dni" type="number">
+                        </div>
+                        <div class="birthday-container">
+                            <h3>Birthday</h3>
+                            <input class="input-box-birthday" id="form-birthday" type="date">
+                        </div>
+                    </div> 
+                    <div class="phone-direction-container">
+                        <div>
+                            <h3>Phone number</h3>
+                            <input class="input-box" id="form-phone-number" type="number">
+                        </div>
+                        <div class="direction-container">
+                            <h3>Direction</h3>
+                            <input class="input-box" id="form-direction" type="text">
+                        </div>
                     </div>
-                </div>
-                <div class="dni-birthday-container">
-                    <div>
-                        <h3>DNI</h3>
-                        <input class="input-box" type="text">
+                    <div  class="location-pc-container">
+                        <div class="location-container">
+                            <h3>Location</h3>
+                            <input class="input-box" id="form-location" type="text">
+                        </div>
+                        <div class="postal-code-container">
+                            <h3>Postal Code</h3>
+                            <input class="input-box" id="form-postal-code" type="text">
+                        </div>
                     </div>
-                    <div>
-                        <h3>Birthday</h3>
-                        <input class="input-box-birthday" type="date">
+                    <div class="email-password-container">
+                        <div class="email-container">
+                            <h3>E-Mail</h3>
+                            <input class="input-box" id="form-email" type="text">
+                        </div>
+                        <div class="password-container-sign-up">
+                            <h3>Password</h3>
+                            <input class="input-box" id="form-password" type="text">
+                        </div>
                     </div>
-                </div> 
-                <div class="phone-direction-container">
-                    <div>
-                        <h3>Phone number</h3>
-                        <input class="input-box" type="number">
+                    <div class="repeat-password-container">
+                        <h3>Repeat Password</h3>
+                        <input class="input-box" id="form-repeat-password" type="text">
                     </div>
-                    <div>
-                        <h3>Direction</h3>
-                        <input class="input-box" type="text">
-                    </div>
-                </div>
-                <div  class="location-pc-container">
-                    <div>
-                        <h3>Location</h3>
-                        <input class="input-box" type="text">
-                    </div>
-                    <div>
-                        <h3>Postal Code</h3>
-                        <input class="input-box" type="text">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <h3>E-Mail</h3>
-                        <input class="input-box" type="text">
-                    </div>
-                    <div>
-                        <h3>Password</h3>
-                        <input class="input-box" type="text">
-                    </div>
-                </div>
-                <div>
-                    <h3>Repeat Password</h3>
-                    <input class="input-box" type="text">
-                </div>
-                <button class="sign-in-button">Continue</button>
+                    <button class="sign-in-button">Continue</button>
+                </form>
             </div>
         </section>
     </main>

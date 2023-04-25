@@ -5,18 +5,17 @@
 
 .section-login-header {
     background-color: #49a37b;
-    max-height: 125px;
+    max-height: 100px;
     border-radius: 20px 20px 0px 0px;
     display: flex;
     justify-content: space-between;
 }
 
 .rocket-img {
-    width: 10%;
+    width: 20%;
     margin-top: 1px;
     margin-bottom: 10px;
-    display: flex;
-    margin-left: 30px;
+    margin-left: 1%;
 }
 
 .login-flex-container {
@@ -27,7 +26,7 @@
 }
 
 .title {
-    font-size: 32px;
+    font-size: 20px;
     font-weight: 900;
     color: #131543;
     border-bottom: 2px #131441 solid; 
@@ -35,38 +34,41 @@
 }
 
 .subtitle {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 0;
     color: #121234;
+    margin-bottom: 20%;
 }
 
-.register {
+#register-link {
+    font-size: 15px;
     color: #fff;
-    font-size: 20px;
-    margin-right: 40px;
+    display: flex;
+    align-self: center;
+    margin-right: 20px;
 }
 
 .section-sign-in-container {
     background-color: #fff;
-    height: 703px;
+    height: 720px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .sign-in-flex-container {
+    margin-top: 10%;
     background-color: #fdfbfb;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-top: 6%;
-    width: 30%;
-    height: 75%;
+    width: 80%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .sign-in-title {
-    font-weight: 0;
+    font-size: 20px;
     margin-top: 40px;
 }
 
@@ -77,6 +79,7 @@
     justify-content: space-between;
     width: 70%;
 }
+
 
 .mail-img {
     width: 10%;
@@ -99,18 +102,17 @@
 .password-img {
     width: 10%;
     margin-bottom: 10px;
-    margin-right: 5px;
 }
 
 .password-input {
-    font-size: 13px;
+    font-size: 20px;
     border: none;
     width: 100%;
 }
 
 .remember-me-container {
-    width: 70%;
-    margin-top: 20px;
+    width: 75%;
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -127,19 +129,20 @@
 }
 
 .remember-me-text {
-    font-size: 12px;
-    margin-left: 15px;
+    font-size: 15px;
+    margin-left: 10%;
 }
 
 .forget-password-container {
-    font-size: 13px;
+    font-size: 15px;
+    margin-left: 25%;
 }
 
 .sign-in-button {
     background-color: #49a37b;
     color: #fff;
-    font-size: 13px;
-    margin-top: 40px;
+    font-size: 20px;
+    margin-top: 100px;
     width: 70%;
     height: 8%;
     border: 1px;
@@ -150,40 +153,192 @@
     background-color: #49a37b;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: row;
 }
 
 .contact-us-button {
     background-color: #121234;
     color: #fff;
-    font-size: 13px;
-    margin-top: 4%;
-    margin-left: 3%;
+    font-size: 12px;
     height: 30px;
-    border: 1px;
-    border-radius: 10px;
-    width: 7%;
+    margin-left: 20%;
+    border-radius: 20px;
 }
 
 .reserved-text {
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
+    font-size: 15px;
+    margin-left: 30%;
 }
 
-.logo-container {
+.logos-container {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+    margin-right: 1%;
 }
 
 .facebook-logo {
-    height: 50%;
-    margin-right: 10px;
+    width: 25%;
+    margin-left: 20%;
 }
 
 .instagram-logo {
-    height: 40%;
-    margin-left: 10px;
+    width: 20%;
+}
+
+.mail-container .error {
+    font-size: 20px;
+    color: #ff3860;
+}
+
+.mail-container.error {
+    border-color: #ff3860;
+}
+
+.mail-container.success {
+    border-color: #49a37b;
+}
+
+.password-container .error {
+    font-size: 20px;
+    color: #ff3860;
+}
+
+.password-container.error {
+    border-color: #ff3860;
+}
+
+.password-container.success {
+    border-color: #49a37b;
+}
+
+@media only screen and (min-width: 601px) {
+
+.login-flex-container {
+    width: 30%;
+    margin-top: 2%;
+}
+
+.title {
+    font-size: 22px;
+}
+
+.subtitle {
+    font-size: 17px;
+}
+
+.contact-us-button {
+    width: 150px;
+    height: 30px;
+}
+
+
+.facebook-logo {
+    width: 30%;
+}
+
+.instagram-logo {
+    width: 20%;
+    height: 15%;
+    margin-top: 5%;
+}
+
+}
+
+@media only screen and (min-width: 1025px) {
+
+.section-login-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rocket-img {
+    width: 10%;
+}
+
+#register-link {
+    font-size: 20px;
+}
+
+.section-sign-in-container {
+    height: 1000px;
+}
+
+.login-flex-container {
+    margin-top: 5%;
+    margin-right: 10%;
+    display: flex;
+    align-self: center;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.subtitle {
+    font-size: 20px;
+}
+
+.sign-in-flex-container {
+    width: 40%;
+    height: 70%;
+}
+
+.sign-in-title {
+    font-size: 30px;
+}
+
+.mail-img {
+    width: 10%;
+}
+
+.mail-input {
+    font-size: 25px;
+}
+
+.password-img {
+    width: 9%;
+}
+
+.password-input {
+    font-size: 35px;
+}
+
+.remember-me-text {
+    font-size: 30px;
+}
+
+.forget-password-container {
+    font-size: 30px;
+}
+
+.footer-login {
+    height: 116px;
+}
+
+.contact-us-button {
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+.reserved-text {
+    font-size: 25px;
+    margin-right: 29%;
+}
+
+.facebook-logo {
+    width: 40%;
+}
+
+.instagram-logo {
+    margin-right: 3%;
+    width: 30%;
+}
+
 }
