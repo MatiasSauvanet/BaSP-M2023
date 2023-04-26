@@ -20,14 +20,14 @@
 }
 
 .section-sign-in-container {
-    height: 1200px;
+    height: 1450px;
 }
 
 .sign-in-flex-container {
     display: flex;
     flex-direction: column;
     width: 70%;
-    height: 85%;
+    height: 80%;
 }
 
 .register-title {
@@ -79,4 +79,59 @@
     height: 60px;
     margin-top: 60px;
     margin-left: 25%;
+}
+
+.name-container .error {
+    font-size: 20px;
+    color: #ff3860;
+}
+
+.surname-container .error {
+    font-size: 20px;
+    color: #ff3860;
+}
+
+.dni-container .error {
+    font-size: 20px;
+    color: #ff3860;
+}
+
+.birthday-container .error {
+    font-size: 20px;
+    color: #ff3860;
+}
+
+.phone-number-container .error {
+    font-size: 20px;
+    color: #ff3860;
+}
+
+.direction-container .error {
+    font-size: 20px;
+    color: #ff3860;
+}
+
+.location-container .error {
+    font-size: 20px;
+    color: #ff3860;
+}
+
+.postal-code-container .error {
+    font-size: 20px;
+    color: #ff3860;
+}
+
+.email-container .error {
+    font-size: 20px;
+    color: #ff3860;
+}
+
+.password-container-two .error {
+    font-size: 20px;
+    color: #ff3860;
+}
+
+.repeat-password-container .error {
+    font-size: 20px;
+    color: #ff3860;
 }

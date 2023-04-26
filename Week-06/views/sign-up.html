@@ -22,7 +22,6 @@
     </header>
     <main>
         <section class="section-sign-in-container">
-            
             <div class="sign-in-flex-container">
                 <h2 class="register-title">Register</h2>
                 <form action="Form_submit.php">
@@ -30,68 +29,82 @@
                         <div class="name-container">
                             <h3>Name</h3>
                             <input class="input-box" id="form-name" type="text">
+                            <div class="error"></div>
                         </div>
                         <div class="surname-container">
                             <h3>Surname</h3>
                             <input class="input-box" id="form-surname" type="text">
+                            <div class="error"></div>
                         </div>
                     </div>
                     <div class="dni-birthday-container">
                         <div class="dni-container">
                             <h3>DNI</h3>
-                            <input class="input-box-dni" id="form-dni" type="number">
+                            <input class="input-box-dni" id="form-dni" type="text">
+                            <div class="error"></div>
                         </div>
                         <div class="birthday-container">
                             <h3>Birthday</h3>
                             <input class="input-box-birthday" id="form-birthday" type="date">
+                            <div class="error"></div>
                         </div>
                     </div> 
                     <div class="phone-direction-container">
-                        <div>
+                        <div class="phone-number-container">
                             <h3>Phone number</h3>
-                            <input class="input-box" id="form-phone-number" type="number">
+                            <input class="input-box" id="form-phone-number" type="text">
+                            <div class="error"></div>
                         </div>
                         <div class="direction-container">
                             <h3>Direction</h3>
                             <input class="input-box" id="form-direction" type="text">
+                            <div class="error"></div>
                         </div>
                     </div>
                     <div  class="location-pc-container">
                         <div class="location-container">
                             <h3>Location</h3>
                             <input class="input-box" id="form-location" type="text">
+                            <div class="error"></div>
                         </div>
                         <div class="postal-code-container">
                             <h3>Postal Code</h3>
                             <input class="input-box" id="form-postal-code" type="text">
+                            <div class="error"></div>
                         </div>
                     </div>
                     <div class="email-password-container">
                         <div class="email-container">
                             <h3>E-Mail</h3>
                             <input class="input-box" id="form-email" type="text">
+                            <div class="error"></div>
                         </div>
-                        <div class="password-container-sign-up">
+                        <div class="password-container-two">
                             <h3>Password</h3>
                             <input class="input-box" id="form-password" type="text">
+                            <div class="error"></div>
                         </div>
                     </div>
                     <div class="repeat-password-container">
                         <h3>Repeat Password</h3>
                         <input class="input-box" id="form-repeat-password" type="text">
+                        <div class="error"></div>
                     </div>
-                    <button class="sign-in-button">Continue</button>
+                    <button class="sign-in-button" id="form-button-register" type="button">Continue</button>
                 </form>
             </div>
         </section>
     </main>
     <footer class="footer-login">
-        <button class="contact-us-button">Contact Us</button>
-        <p class="reserved-text">All rights reserved®</p>
-        <div class="logo-container">
-            <img class="facebook-logo" src="../assets/Img/Facebook LOGO.png">
-            <img class="instagram-logo" src="../assets/Img/Instagram LOGO.png">
+        <div class="footer-text">
+            <button class="contact-us-button">Contact Us</button>
         </div>
+            <p class="reserved-text">All rights reserved®</p>
+            <div class="logos-container">
+                <img class="facebook-logo" src="../assets/Img/Facebook LOGO.png">
+                <img class="instagram-logo" src="../assets/Img/Instagram LOGO.png">
+            </div>
     </footer>
 </body>
+<script src="../js/sign-up.js"></script>
 </html>

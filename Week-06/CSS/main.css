@@ -424,17 +424,20 @@
 .functions-flex-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding-left: 30px;
+    justify-content: space-between;
 }
 
 .functions-h2 {
-    padding-left: 50px;
+    margin-left: 5%;
 }
 
 .agenda-flex-container{
-    width: 50%;
+    width: 40%;
     display: flex;
+}
+
+.membership-flex-container {
+    margin-top: 3%;
 }
 
 .contact-flex-container {
