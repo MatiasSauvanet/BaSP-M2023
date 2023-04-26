@@ -21,5 +21,13 @@ Add CSS to the HTML landing page.
 -Do 6 exercises (arrays, for, strings, etc)
 -Github pages: https://matiassauvanet.github.io/BaSP-M2023/Week-05/index.html
 
+## Week 06
+DOM
+
+-Work on new html, login and sign-up pages and added CSS using the knowledge of week 4 and 3.
+-Use js to link login and sign-up pages.
+-Use js to validate login and sign-up pages.
+-Github pages: https://matiassauvanet.github.io/BaSP-M2023/Week-06/views/index.html
+
 ## Authors
 - Matias Sauvanet
