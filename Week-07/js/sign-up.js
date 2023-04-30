@@ -10,7 +10,7 @@ var email = document.getElementById("form-email");
 var password = document.getElementById("form-password");
 var passwordRepeat = document.getElementById("form-repeat-password")
 var register = document.getElementById("form-button-register");
-console.log(register)
+// console.log(register)
 
 function setError(element, message) {
     var inputControl = element.parentElement;
@@ -370,8 +370,35 @@ function submitForm() {
     innerAlert += alertText + "\n";
     validateInputBirthday();
     innerAlert += alertText + "\n";
+    fetchUrl(url)
     alert(innerAlert);
 }
+
+var url = `https://api-rest-server.vercel.app/signup?name=${userName.value}&lastName=${lastName.value}&dni=${dni.value}
+    &dob=${birthday.value}&phone=${telephone.value}&address=${address.value}&city=${location.value}&zip=
+    ${areaCode.value}&email=${email.value}&password=${password.value}&password=${passwordRepeat.value}`
+
+function fetchUrl(url) {
+    return fetch(url)
+      .then(function (response) {
+        if (response.ok) {
+          return response.json();
+        } else {
+          return response.json().then(function(error) {
+            throw new Error(error.message);
+          });
+        }
+      })
+      .then(function (data) {
+        alert(data.msg);
+        console.log(data);
+        return data;
+      })
+      .catch(function (error) {
+        alert('Ha ocurrido un error al realizar la solicitud: ' + error.message);
+        console.log(error);
+      });
+  }
 
 userName.addEventListener("blur", validateInputName);
 userName.addEventListener("focus", function e() {setSuccess(userName)});
@@ -396,4 +423,3 @@ passwordRepeat.addEventListener("focus", function e() {setSuccess(passwordRepeat
 birthday.addEventListener("blur", validateInputBirthday);
 birthday.addEventListener("focus", function e() {setSuccess(birthday)});
 register.addEventListener("click", submitForm);
-

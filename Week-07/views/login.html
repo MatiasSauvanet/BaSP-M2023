@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html class="html" lang="en">
+<head>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section class="section-login-header">
+                <img class="rocket-img" src="../assets/Img/Rocket logo.png">
+                <div class="login-flex-container">
+                    <h1 class="title">Mega Rocket Gym</h1>
+                    <h2 class="subtitle">"Take-off your potential"</h2>
+                </div>
+                <div class="links-container">
+                    <a id="register-link-login" href="../views/index.html">Home</a>
+                    <a id="register-link" href="../views/sign-up.html">Sign Up</a>
+                </div>
+        </section>
+    </header>
+    <main>
+        <section class="section-sign-in-container">
+            <div class="sign-in-flex-container">
+                <h2 class="sign-in-title">Sign in</h2>
+                <form action="Form_submit.php"></form>
+                <div class="mail-container">
+                    <img class="mail-img" src="../assets/Img/Mail LOGO.png">
+                    <input class="mail-input" id="form-mail" type="text">
+                    <div class="error"></div>
+                </div>
+                <div class="password-container">
+                    <img class="password-img" src="../assets/Img/Password LOGO.png">
+                    <input class="password-input" id="form-password" type="password">
+                    <div class="error"></div>
+                </div>
+                <div class="remember-me-container">
+                    <div class="input-container">
+                        <input class="input-sign-in" type="checkbox">
+                        <p class="remember-me-text">Remember Me</p>
+                    </div>
+                    <div class="forget-password-container">
+                        <p>Forgot Password?</p>
+                        <p>Get help</p>
+                    </div>
+                </div>
+                <button class="sign-in-button" id="form-continue-button" type="button">Continue</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-login">
+        <div class="footer-text">
+            <button class="contact-us-button">Contact Us</button>
+        </div>
+            <p class="reserved-text">All rights reserved®</p>
+            <div class="logos-container">
+                <img class="facebook-logo" src="../assets/Img/Facebook LOGO.png">
+                <img class="instagram-logo" src="../assets/Img/Instagram LOGO.png">
+            </div>
+    </footer>
+</body>
+<script src="../js/login.js"></script>
+</html>

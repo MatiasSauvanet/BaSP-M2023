@@ -103,14 +103,15 @@ function validateInputPassword() {
 }
 
 function submitForm() {
+    var url = `https://api-rest-server.vercel.app/login?email=${email.value}&password=${password.value}`;
     validateInputEmail()
     validateInputPassword()
-    fetchGet(url)
+    fetchUrl(url)
     var parentEmail = email.parentElement;
     var parentPassword = password.parentElement;
     var valEmailError = parentEmail.classList.contains("error")
     var valPasswordError = parentPassword.classList.contains("error")
-    console.log(valEmailError, valPasswordError)
+    // console.log(valEmailError, valPasswordError)
     if (valEmailError && valPasswordError) {
         alert("Login error" + "\n" + alertTextPasswordError + "\n" + alertTextEmailError)
     } else if (valEmailError) {
@@ -122,9 +123,30 @@ function submitForm() {
     }
 }
 
+function fetchUrl(url) {
+    return fetch(url)
+      .then(function (response) {
+        if (response.ok) {
+          return response.json();
+        } else {
+          return response.json().then(function(error) {
+            throw new Error(error.msg);
+          });
+        }
+      })
+      .then(function (data) {
+        alert(data.msg);
+        console.log(data);
+        return data;
+      })
+      .catch(function (error) {
+        alert('Ha ocurrido un error al realizar la solicitud: ' + error.message);
+        console.log(error);
+      });
+  }
+
 email.addEventListener("blur", validateInputEmail);
 email.addEventListener("focus", function e() {setSuccess(email)});
 password.addEventListener("blur", validateInputPassword);
 password.addEventListener("focus", function e() {setSuccess(password)});
 login.addEventListener("click", submitForm)
-
