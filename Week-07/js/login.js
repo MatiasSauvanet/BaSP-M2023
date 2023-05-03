@@ -106,12 +106,11 @@ function submitForm() {
     var url = `https://api-rest-server.vercel.app/login?email=${email.value}&password=${password.value}`;
     validateInputEmail()
     validateInputPassword()
-    fetchUrl(url)
     var parentEmail = email.parentElement;
     var parentPassword = password.parentElement;
     var valEmailError = parentEmail.classList.contains("error")
     var valPasswordError = parentPassword.classList.contains("error")
-    // console.log(valEmailError, valPasswordError)
+    console.log(valEmailError, valPasswordError)
     if (valEmailError && valPasswordError) {
         alert("Login error" + "\n" + alertTextPasswordError + "\n" + alertTextEmailError)
     } else if (valEmailError) {
@@ -119,7 +118,7 @@ function submitForm() {
     } else if (valPasswordError) {
         alert("Password Error" + "\n" + alertTextPasswordError + "\n" + alertTextEmailSuccess)
     } else {
-        alert("Welcome to MEGAROCKETGYM" + "\n" + alertTextPasswordSuccess + "\n" + alertTextEmailSuccess)
+        fetchUrl(url)
     }
 }
 
@@ -140,7 +139,7 @@ function fetchUrl(url) {
         return data;
       })
       .catch(function (error) {
-        alert('Ha ocurrido un error al realizar la solicitud: ' + error.message);
+        alert(error.message);
         console.log(error);
       });
   }
