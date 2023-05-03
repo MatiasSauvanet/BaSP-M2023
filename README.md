@@ -35,6 +35,7 @@ Fetch, Async and Local Storage
 -Work in the html al js of ##Week 06, added fetch and local storage.
 -Modify js to add Fetch and local storage.
 -Learn diferences between Asynchronous and Synchronous.
+-Github pages: https://matiassauvanet.github.io/BaSP-M2023/Week-07/views/index.html
 
 ## Authors
 - Matias Sauvanet
