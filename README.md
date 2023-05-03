@@ -29,5 +29,12 @@ DOM
 -Use js to validate login and sign-up pages.
 -Github pages: https://matiassauvanet.github.io/BaSP-M2023/Week-06/views/index.html
 
+## Week 07
+Fetch, Async and Local Storage
+
+-Work in the html al js of ##Week 06, added fetch and local storage.
+-Modify js to add Fetch and local storage.
+-Learn diferences between Asynchronous and Synchronous.
+
 ## Authors
 - Matias Sauvanet
