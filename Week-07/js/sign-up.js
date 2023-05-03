@@ -337,21 +337,6 @@ function validateInputPasswordRepeat() {
     }
 }
 
-// function validateInputBirthday() {
-//     var birthdayValue = birthday.value.trim();
-//     var dateEl = birthdayValue.split('-')
-//     var formattedDate = dateEl[2] + '/' + dateEl[1] + '/' + dateEl[0]
-//     if (birthdayValue === '') {
-//         const textError = "Birthday is required."
-//         setError(birthday, textError);
-//         return alertText = textError;
-//     } else {
-//         setSuccess(birthday);
-//         alertText = formattedDate;
-//         return alertText
-//     }
-// }
-
 function validateInputBirthdate() {
     var birthdateValue = birthdate.value.trim();
     var dateEl = birthdateValue.split('-');
